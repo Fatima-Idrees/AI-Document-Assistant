@@ -16,7 +16,7 @@ from sentence_transformers import SentenceTransformer
 
 APP_TITLE = "AI Document Assistant"
 MODEL_NAME = "all-MiniLM-L6-v2"
-DEFAULT_GROQ_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_GROQ_MODEL = "openai/gpt-oss-120b"
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 TOP_K = 5
